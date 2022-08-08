@@ -92,7 +92,7 @@ nav > ol > li {
     position:relative;
     left:30%; 
     top: -227px; 
-    background-color: aqua; 
+    background-color: rgba(131, 131, 131, 0.212); 
     border: 1px solid black;
     width: 20%;  
 }
