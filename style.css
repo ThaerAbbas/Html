@@ -77,7 +77,6 @@ nav > ol > li {
     border: 1px solid black;
     width: 50%;
     margin-top: 30px;
-    border-radius: 3px;
 }
 #article1{
    
@@ -123,4 +122,15 @@ li:hover {
 
     text-align: right;
     color: rgb(2, 57, 134);
+ }
+
+ .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    color: rgb(240, 0, 0); 
+    padding: 40px 0 120px 0;
+    margin-top: 20px;
  }
