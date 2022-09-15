@@ -10,7 +10,7 @@ h1 {
     font-weight: bold;
 }
 
-.header  {
+header nav ul   {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -19,15 +19,7 @@ h1 {
     color: rgb(0, 26, 255);
 }
 
-.button {
-    margin-top: 20px;
-}
-#buttonRed {
-    background-color: rgba(255, 64, 0, 0.376);
-}
-#buttonGreen {
-   background-color: rgb(255, 10, 10);
-}
+
  .headlines  {
     border: 1px solid black;
     display: flex;
@@ -64,6 +56,8 @@ h1 {
     width: 50%;
     margin-top: 30px;
     padding: 10px;
+    text-align: center;
+
 }
 
 
@@ -77,37 +71,47 @@ h1 {
   
 }
 
-#article1{
+.article1{
    
     background-color: rgb(72, 255, 0); 
     border: 1px solid black;
     width: 20%;
     height: fit-content;
-margin-right:10px ;
     padding: 10px;
-    
+    margin-right: -350px;
 }
-#article2 {
 
-
+.article2 {
     background-color: rgba(131, 131, 131, 0.212); 
     border: 1px solid black;
     width: 20%; 
     height: fit-content;
-    margin-left:10px ;
     padding: 10px;
+    margin-left: -350px;
 }
+
+
 
   #aside {
 
   display: flex;
   margin-left: auto;
-  margin-top: -300px;
+  margin-top: -700px;
   background-color: rgb(255, 0, 47); 
   border: 1px solid black;
   width: 30%;
-  margin-bottom: 80px;  
   padding: 10px;
+
+}
+
+#allArttical{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 30px;
+  margin-left: -400px;
+
 }
 
 li:hover {
@@ -116,24 +120,95 @@ li:hover {
     border-radius: 7px;
   }
 
- #log { 
+  #login{
+    margin-top: 50px;
+  }
 
-    text-transform: uppercase;
- }
-
- #Contact{
-
-    text-align: right;
-    color: rgb(2, 57, 134);
- }
-
- .footer{
+#info{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    text-align: center;
+}
+
+ .footer{
+   
     text-align: center;
     background-color: hsl(0, 0%, 100%);
     color: rgb(240, 0, 0); 
     padding: 40px 0 120px 0;
     margin-top: 20px;
  }
+ 
+.form-style-6{
+	font: 95% Arial, Helvetica, sans-serif;
+	max-width: 400px;
+	margin: 10px auto;
+	padding: 16px;
+	background: #F7F7F7;
+}
+.form-style-6 h1{
+	background: #43D1AF;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}
+
+.form-style-6 input[type="email"],
+.form-style-6 input[type="text"]
+
+
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+.form-style-6 input[type="text"]:focus
+
+.form-style-6 select:focus
+{
+	box-shadow: 0 0 5px #43D1AF;
+	padding: 3%;
+	border: 1px solid #43D1AF;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #43D1AF;
+	border-bottom: 2px solid #30C29E;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+	background: #2EBC99;
+}
+#resetAndCheck{
+    margin-top: 10px;
+}
+#resetAndCheck .form-check{
+    margin-top: 10px;
+}
+
